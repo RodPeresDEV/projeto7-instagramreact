@@ -41,5 +41,3 @@ export default function Post(props) {
         </div>
     )
 }
-//{isLike === true ? <ion-icon name="heart" class="red" onClick={() => setIsLike(false)}></ion-icon> : <ion-icon name="heart-outline"  onClick={() => setIsLike(true)}></ion-icon>}
-//{isFavorite === true ? <ion-icon name="bookmark" onClick={() => setIsFavorite(false)}></ion-icon> : <ion-icon name="bookmark-outline" onClick={() => setIsFavorite(true)}></ion-icon>}

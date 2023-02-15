@@ -4,7 +4,7 @@ export default function Usuario(props) {
     const [userName, setUserName] = useState(props.name)
     const [userImage, setUserImage] = useState(props.image)
     function changeImage () {
-        const image = prompt("Qual seu novo foto?")
+        const image = prompt("Qual sua nova foto?")
         if (image.length === 0) return
         setUserImage(image)
     }
